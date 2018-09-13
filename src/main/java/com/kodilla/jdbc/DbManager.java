@@ -14,7 +14,7 @@ public class DbManager {
         connectionProps.put("user", "kodilla_user");
         connectionProps.put("password", "password");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://127.0.0.1:3306/kodilla_course?user=kodilla_user" +
+                "jdbc:mysql://127.0.0.1:3306/mod22?user=kodilla_user" +
                         "&useSSL=False",
                 connectionProps);
     }
